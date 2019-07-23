@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
 
-  s.name         = "PaySDK"
+  s.name         = "MTPaySDK"
   s.version      = "1.0.0"
   s.summary      = "支付SDK，支持多家支付公司"
 
@@ -95,9 +95,9 @@ LICENSE
   #  Not including the public_header_files will make all headers public.
   #
 
-  s.source_files  = "PaySDK/PaySDK.framework/Headers/*.{h}"
+  s.source_files  = "PaySDK/MTPaySDK.framework/Headers/*.{h}"
   #s.exclude_files = "Classes/Exclude"
-  s.vendored_frameworks = "PaySDK/PaySDK.framework"
+  s.vendored_frameworks = "PaySDK/MTPaySDK.framework"
 
   # s.public_header_files = "Classes/**/*.h"
 
@@ -135,7 +135,7 @@ LICENSE
   #  where they will only apply to your library. If you depend on other Podspecs
   #  you can include multiple dependencies to ensure it works.
 
-  s.requires_arc = true
+  #s.requires_arc = true
 
   # s.xcconfig = { "HEADER_SEARCH_PATHS" => "$(SDKROOT)/usr/include/libxml2" }
   # s.dependency "JSONKit", "~> 1.4"

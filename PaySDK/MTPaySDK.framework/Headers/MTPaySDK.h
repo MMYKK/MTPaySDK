@@ -1,6 +1,6 @@
 //
-//  PaySDK.h
-//  PaySDK
+//  MTPaySDK.h
+//  MTPaySDK
 //
 //  Created by BiuKia on 2019/6/26.
 //  Copyright © 2019 mt. All rights reserved.

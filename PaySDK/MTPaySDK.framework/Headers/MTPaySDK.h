@@ -24,12 +24,14 @@ FOUNDATION_EXPORT const unsigned char PaySDKVersionString[];
  调起支付
 
  @param payModel 支付参数
+ @param securityCode 安全码
  @param controller 所在页面的controller
  @param success 成功
  @param failure 失败
  */
 +(void)startPayWith:(PayReqModel *)payModel
-               with:(UIViewController *)controller
+       securityCode:(NSString *)securityCode
+         controller:(UIViewController *)controller
             success:(void(^)(NSDictionary * responseObject))success
             failure:(void (^)(NSError *error))failure;
 

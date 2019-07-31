@@ -43,7 +43,6 @@ FOUNDATION_EXPORT const unsigned char PaySDKVersionString[];
 /// SDK版本号
 +(NSString *)sdkVersion;
 
-
 @end
 
 
